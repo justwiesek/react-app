@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.89a5cfba.chunk.css",
+    "main.js": "/react-app/static/js/main.51024978.chunk.js",
+    "main.js.map": "/react-app/static/js/main.51024978.chunk.js.map",
+    "runtime-main.js": "/react-app/static/js/runtime-main.464671de.js",
+    "runtime-main.js.map": "/react-app/static/js/runtime-main.464671de.js.map",
+    "static/js/2.7908a500.chunk.js": "/react-app/static/js/2.7908a500.chunk.js",
+    "static/js/2.7908a500.chunk.js.map": "/react-app/static/js/2.7908a500.chunk.js.map",
+    "index.html": "/react-app/index.html",
+    "precache-manifest.e88d72a5a8df3ca92f1c4bd1a999e84e.js": "/react-app/precache-manifest.e88d72a5a8df3ca92f1c4bd1a999e84e.js",
+    "service-worker.js": "/react-app/service-worker.js",
+    "static/css/main.89a5cfba.chunk.css.map": "/react-app/static/css/main.89a5cfba.chunk.css.map",
+    "static/media/icon-home.jpg": "/react-app/static/media/icon-home.ff81fd78.jpg",
+    "static/media/info-img.jpg": "/react-app/static/media/info-img.28f560e3.jpg",
+    "static/media/logo.png": "/react-app/static/media/logo.d862677e.png",
+    "static/media/railay-beach.jpg": "/react-app/static/media/railay-beach.c5565f03.jpg",
+    "static/media/tijuana.jpg": "/react-app/static/media/tijuana.03c599d2.jpg",
+    "static/media/waikiki.jpeg": "/react-app/static/media/waikiki.cc78a066.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.464671de.js",
+    "static/js/2.7908a500.chunk.js",
+    "static/css/main.89a5cfba.chunk.css",
+    "static/js/main.51024978.chunk.js"
+  ]
+}
