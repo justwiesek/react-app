@@ -1,0 +1,7 @@
+.App {
+    background-image: url("https://www.lonelyplanet.fr/sites/lonelyplanet/files/styles/manual_crop/public/media/destination/slider/mobile/1005_2_0.jpg?itok=vsSWqena");
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000vmax rgba(0,0,0,.7);
+}
+
