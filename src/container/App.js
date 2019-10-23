@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import "./App.css";
 
@@ -34,20 +34,20 @@ class App extends Component {
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
-    
+     
   return (
-    <BrowserRouter>
       <div className="App">
+
         <Navbar title="Magical travels" toggleClickHandler={this.toggleClickHandler} />
         <BurgerMenu click={this.backdropClickHandler} show={this.state.sideDrawerOpen} /> 
         {backdrop}
-        <Route exact path="/" render={() => <Home title="magical travel" />} />
-        <Route exact path="/about" render={() => <About title="about us" />} />
-        <Route exact path="/destination" render={() => <Destination title="popular destinations" />} />
-        <Route exact path="/contact" render={() => <Contact title="Contact us" />} />
-
+        <Switch>
+          <Route exact path="/react-app" render={() => <Home title="magical travel" />} />
+          <Route path="/about" render={() => <About title="about us" />} />
+          <Route path="/destination" render={() => <Destination title="popular destinations" />} />
+          <Route path="/contact" render={() => <Contact title="Contact us" />} />
+        </Switch>
       </div>
-    </BrowserRouter>
   );
 };
 };
